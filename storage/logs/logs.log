@@ -1,0 +1,2493 @@
+2023-04-18 16:46:54	ERROR	gorm@v1.25.0/gorm.go:210	failed to initialize database, got error dial tcp :0: connectex: The requested address is not valid in its context.
+gorm.io/gorm.Open
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/gorm.go:210
+competition-backend/pkg/gorm.Conn
+	C:/Users/Coder/competition-backend/pkg/gorm/gorm.go:15
+competition-backend/bootstrap.SetupDB
+	C:/Users/Coder/competition-backend/bootstrap/database.go:28
+main.main
+	C:/Users/Coder/competition-backend/main.go:21
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-18 16:52:52	ERROR	gorm@v1.25.0/gorm.go:210	failed to initialize database, got error dial tcp :0: connectex: The requested address is not valid in its context.
+gorm.io/gorm.Open
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/gorm.go:210
+competition-backend/pkg/gorm.Conn
+	C:/Users/Coder/competition-backend/pkg/gorm/gorm.go:15
+competition-backend/bootstrap.SetupDB
+	C:/Users/Coder/competition-backend/bootstrap/database.go:28
+main.main
+	C:/Users/Coder/competition-backend/main.go:21
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-18 19:52:29	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/pin", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.31.3", "errors": "", "time": "0.000ms"}
+2023-04-18 21:14:34	ERROR	gorm@v1.25.0/gorm.go:210	failed to initialize database, got error dial tcp :0: connectex: The requested address is not valid in its context.
+gorm.io/gorm.Open
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/gorm.go:210
+competition-backend/pkg/database.Conn
+	C:/Users/Coder/competition-backend/pkg/database/database.go:15
+competition-backend/bootstrap.SetupDB
+	C:/Users/Coder/competition-backend/bootstrap/database.go:28
+main.main
+	C:/Users/Coder/competition-backend/main.go:22
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-18 21:14:34	ERROR	redis/redis.go:43	Error Occurred:	{"error": "dial tcp :0: connectex: The requested address is not valid in its context."}
+competition-backend/pkg/redis.NewClient
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:43
+competition-backend/pkg/redis.Conn.func1
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:24
+sync.(*Once).doSlow
+	C:/software/Go/src/sync/once.go:74
+sync.(*Once).Do
+	C:/software/Go/src/sync/once.go:65
+competition-backend/pkg/redis.Conn
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:23
+competition-backend/bootstrap.SetupRedis
+	C:/Users/Coder/competition-backend/bootstrap/redis.go:10
+main.main
+	C:/Users/Coder/competition-backend/main.go:25
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-18 21:24:51	ERROR	gorm@v1.25.0/gorm.go:210	failed to initialize database, got error dial tcp :0: connectex: The requested address is not valid in its context.
+gorm.io/gorm.Open
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/gorm.go:210
+competition-backend/pkg/database.Conn
+	C:/Users/Coder/competition-backend/pkg/database/database.go:15
+competition-backend/bootstrap.SetupDB
+	C:/Users/Coder/competition-backend/bootstrap/database.go:28
+main.main
+	C:/Users/Coder/competition-backend/main.go:22
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-18 21:24:51	ERROR	redis/redis.go:43	Error Occurred:	{"error": "dial tcp :0: connectex: The requested address is not valid in its context."}
+competition-backend/pkg/redis.NewClient
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:43
+competition-backend/pkg/redis.Conn.func1
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:24
+sync.(*Once).doSlow
+	C:/software/Go/src/sync/once.go:74
+sync.(*Once).Do
+	C:/software/Go/src/sync/once.go:65
+competition-backend/pkg/redis.Conn
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:23
+competition-backend/bootstrap.SetupRedis
+	C:/Users/Coder/competition-backend/bootstrap/redis.go:10
+main.main
+	C:/Users/Coder/competition-backend/main.go:25
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-18 21:26:36	ERROR	gorm@v1.25.0/gorm.go:210	failed to initialize database, got error dial tcp :0: connectex: The requested address is not valid in its context.
+gorm.io/gorm.Open
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/gorm.go:210
+competition-backend/pkg/database.Conn
+	C:/Users/Coder/competition-backend/pkg/database/database.go:15
+competition-backend/bootstrap.SetupDB
+	C:/Users/Coder/competition-backend/bootstrap/database.go:28
+main.main
+	C:/Users/Coder/competition-backend/main.go:23
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-18 21:26:36	ERROR	redis/redis.go:43	Error Occurred:	{"error": "dial tcp :0: connectex: The requested address is not valid in its context."}
+competition-backend/pkg/redis.NewClient
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:43
+competition-backend/pkg/redis.Conn.func1
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:24
+sync.(*Once).doSlow
+	C:/software/Go/src/sync/once.go:74
+sync.(*Once).Do
+	C:/software/Go/src/sync/once.go:65
+competition-backend/pkg/redis.Conn
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:23
+competition-backend/bootstrap.SetupRedis
+	C:/Users/Coder/competition-backend/bootstrap/redis.go:10
+main.main
+	C:/Users/Coder/competition-backend/main.go:26
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-18 21:28:15	ERROR	redis/redis.go:43	Error Occurred:	{"error": "dial tcp :0: connectex: The requested address is not valid in its context."}
+competition-backend/pkg/redis.NewClient
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:43
+competition-backend/pkg/redis.Conn.func1
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:24
+sync.(*Once).doSlow
+	C:/software/Go/src/sync/once.go:74
+sync.(*Once).Do
+	C:/software/Go/src/sync/once.go:65
+competition-backend/pkg/redis.Conn
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:23
+competition-backend/bootstrap.SetupRedis
+	C:/Users/Coder/competition-backend/bootstrap/redis.go:10
+main.main
+	C:/Users/Coder/competition-backend/main.go:26
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-19 08:17:18	ERROR	redis/redis.go:43	Error Occurred:	{"error": "dial tcp :0: connectex: The requested address is not valid in its context."}
+competition-backend/pkg/redis.NewClient
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:43
+competition-backend/pkg/redis.Conn.func1
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:24
+sync.(*Once).doSlow
+	C:/software/Go/src/sync/once.go:74
+sync.(*Once).Do
+	C:/software/Go/src/sync/once.go:65
+competition-backend/pkg/redis.Conn
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:23
+competition-backend/bootstrap.SetupRedis
+	C:/Users/Coder/competition-backend/bootstrap/redis.go:10
+main.main
+	C:/Users/Coder/competition-backend/main.go:24
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-19 09:17:52	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/admin/login", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.31.3", "errors": "", "time": "0.000ms"}
+2023-04-19 10:21:41	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "POST /api/v1/admin/logi", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.31.3", "errors": "", "time": "0.000ms", "Request Body": "username=000000&password=dwdwdw", "Response Body": "{\"code\":404,\"message\":\"路由未定义，请确认 url 和请求方法是否正确\"}"}
+2023-04-19 10:23:30	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.859ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).First
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:131
+competition-backend/app/http/models/admin.GetByUserName
+	C:/Users/Coder/competition-backend/app/http/models/admin/admin.go:21
+competition-backend/app/http/controllers/api/v1/auth.(*AdminLoginController).Login
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/auth/admin_login.go:23
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-19 10:23:30	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.859ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+2023-04-19 10:24:24	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.858ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).First
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:131
+competition-backend/app/http/models/admin.GetByUserName
+	C:/Users/Coder/competition-backend/app/http/models/admin/admin.go:21
+competition-backend/app/http/controllers/api/v1/auth.(*AdminLoginController).Login
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/auth/admin_login.go:23
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-19 10:24:24	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.858ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+2023-04-19 10:42:28	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin11' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.536ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).First
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:131
+competition-backend/app/http/models/admin.GetByUserName
+	C:/Users/Coder/competition-backend/app/http/models/admin/admin.go:21
+competition-backend/app/http/controllers/api/v1/auth.(*AdminLoginController).Login
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/auth/admin_login.go:24
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-19 10:42:28	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin11' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.536ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+2023-04-19 10:45:00	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin11' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.359ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).First
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:131
+competition-backend/app/http/models/admin.GetByUserName
+	C:/Users/Coder/competition-backend/app/http/models/admin/admin.go:21
+competition-backend/app/http/controllers/api/v1/auth.(*AdminLoginController).Login
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/auth/admin_login.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-19 10:45:00	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin11' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.359ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+2023-04-19 10:51:22	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin11' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.562ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).First
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:131
+competition-backend/app/http/models/admin.GetByUserName
+	C:/Users/Coder/competition-backend/app/http/models/admin/admin.go:21
+competition-backend/pkg/auth.AdminAttemptLogin
+	C:/Users/Coder/competition-backend/pkg/auth/auth.go:14
+competition-backend/app/http/controllers/api/v1/auth.(*AdminLoginController).Login
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/auth/admin_login.go:24
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-19 10:51:22	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin11' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.562ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+2023-04-19 10:52:19	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.727ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).First
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:131
+competition-backend/app/http/models/admin.GetByUserName
+	C:/Users/Coder/competition-backend/app/http/models/admin/admin.go:21
+competition-backend/pkg/auth.AdminAttemptLogin
+	C:/Users/Coder/competition-backend/pkg/auth/auth.go:14
+competition-backend/app/http/controllers/api/v1/auth.(*AdminLoginController).Login
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/auth/admin_login.go:24
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-19 10:52:19	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.727ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+2023-04-19 10:52:38	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.228ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).First
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:131
+competition-backend/app/http/models/admin.GetByUserName
+	C:/Users/Coder/competition-backend/app/http/models/admin/admin.go:21
+competition-backend/pkg/auth.AttemptLoginByAdmin
+	C:/Users/Coder/competition-backend/pkg/auth/auth.go:14
+competition-backend/app/http/controllers/api/v1/auth.(*AdminLoginController).Login
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/auth/admin_login.go:24
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-19 10:52:38	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.228ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+2023-04-19 10:53:22	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.363ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).First
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:131
+competition-backend/app/http/models/admin.GetByUserName
+	C:/Users/Coder/competition-backend/app/http/models/admin/admin.go:21
+competition-backend/pkg/auth.AttemptLoginByAdmin
+	C:/Users/Coder/competition-backend/pkg/auth/auth.go:14
+competition-backend/app/http/controllers/api/v1/auth.(*AdminLoginController).Login
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/auth/admin_login.go:24
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-19 10:53:22	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.363ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+2023-04-19 10:54:12	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.303ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'username' in 'where clause'"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).First
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:131
+competition-backend/app/http/models/admin.GetByUserName
+	C:/Users/Coder/competition-backend/app/http/models/admin/admin.go:21
+competition-backend/pkg/auth.AttemptLoginByAdmin
+	C:/Users/Coder/competition-backend/pkg/auth/auth.go:14
+competition-backend/app/http/controllers/api/v1/auth.(*AdminLoginController).Login
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/auth/admin_login.go:24
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-19 10:54:12	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.303ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'username' in 'where clause'"}
+2023-04-19 10:54:28	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.289ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'username' in 'where clause'"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).First
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:131
+competition-backend/app/http/models/admin.GetByUserName
+	C:/Users/Coder/competition-backend/app/http/models/admin/admin.go:21
+competition-backend/pkg/auth.AttemptLoginByAdmin
+	C:/Users/Coder/competition-backend/pkg/auth/auth.go:14
+competition-backend/app/http/controllers/api/v1/auth.(*AdminLoginController).Login
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/auth/admin_login.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-19 10:54:28	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "9.289ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'username' in 'where clause'"}
+2023-04-19 10:56:30	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "11.083ms", "rows": 0}
+2023-04-19 10:56:30	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "11.083ms", "rows": 0}
+2023-04-19 10:56:51	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "11.440ms", "rows": 1}
+2023-04-19 10:58:48	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "11.643ms", "rows": 1}
+2023-04-19 11:01:51	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "10.573ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).First
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:131
+competition-backend/app/http/models/admin.GetByUserName
+	C:/Users/Coder/competition-backend/app/http/models/admin/admin.go:21
+competition-backend/pkg/auth.AttemptLoginByAdmin
+	C:/Users/Coder/competition-backend/pkg/auth/auth.go:14
+competition-backend/app/http/controllers/api/v1/auth.(*AdminLoginController).Login
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/auth/admin_login.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-19 11:01:51	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `ad_mos` WHERE username = 'admin' ORDER BY `ad_mos`.`id` LIMIT 1", "time": "10.573ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.ad_mos' doesn't exist"}
+2023-04-19 11:02:03	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE username = 'admin' ORDER BY `admin`.`id` LIMIT 1", "time": "12.240ms", "rows": 1}
+2023-04-19 11:02:08	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE username = 'admin' ORDER BY `admin`.`id` LIMIT 1", "time": "11.885ms", "rows": 1}
+2023-04-19 11:21:30	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "13.040ms", "rows": 1}
+2023-04-19 11:22:27	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.509ms", "rows": 1}
+2023-04-19 11:23:08	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.199ms", "rows": 0}
+2023-04-19 11:23:08	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.199ms", "rows": 0}
+2023-04-19 13:57:05	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.443ms", "rows": 0}
+2023-04-19 13:57:05	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.443ms", "rows": 0}
+2023-04-19 14:15:59	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE username = 'admin' ORDER BY `admin`.`id` LIMIT 1", "time": "11.287ms", "rows": 1}
+2023-04-19 14:16:23	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.618ms", "rows": 1}
+2023-04-19 14:16:47	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /favicon.ico", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "time": "0.587ms"}
+2023-04-19 14:28:33	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE username = 'admin' ORDER BY `admin`.`id` LIMIT 1", "time": "17.514ms", "rows": 1}
+2023-04-19 15:54:30	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "13.396ms", "rows": 1}
+2023-04-19 15:54:44	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "10.825ms", "rows": 1}
+2023-04-19 15:54:51	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.214ms", "rows": 1}
+2023-04-19 20:41:44	ERROR	gorm@v1.25.0/gorm.go:210	failed to initialize database, got error dial tcp 192.168.216.66:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+gorm.io/gorm.Open
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/gorm.go:210
+competition-backend/pkg/database.Conn
+	C:/Users/Coder/competition-backend/pkg/database/database.go:15
+competition-backend/bootstrap.SetupDB
+	C:/Users/Coder/competition-backend/bootstrap/database.go:31
+main.main
+	C:/Users/Coder/competition-backend/main.go:21
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-19 20:41:49	ERROR	redis/redis.go:44	Error Occurred:	{"error": "dial tcp 192.168.216.66:6379: i/o timeout"}
+competition-backend/pkg/redis.NewClient
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:44
+competition-backend/pkg/redis.Conn.func1
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:25
+sync.(*Once).doSlow
+	C:/software/Go/src/sync/once.go:74
+sync.(*Once).Do
+	C:/software/Go/src/sync/once.go:65
+competition-backend/pkg/redis.Conn
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:24
+competition-backend/bootstrap.SetupRedis
+	C:/Users/Coder/competition-backend/bootstrap/redis.go:10
+main.main
+	C:/Users/Coder/competition-backend/main.go:24
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-19 20:42:03	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "PUT /api/v1/game-api/delete/1", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.212ms", "Request Body": "", "Response Body": "{\"code\":404,\"message\":\"路由未定义，请确认 url 和请求方法是否正确\"}"}
+2023-04-19 20:42:08	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "PUT /api/v1/game-api/delete/", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms", "Request Body": "", "Response Body": "{\"code\":404,\"message\":\"路由未定义，请确认 url 和请求方法是否正确\"}"}
+2023-04-19 20:42:26	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "PUT /api/v1/game-api/delete/?id=1", "query": "id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.299ms", "Request Body": "", "Response Body": "{\"code\":404,\"message\":\"路由未定义，请确认 url 和请求方法是否正确\"}"}
+2023-04-19 20:45:03	ERROR	gorm@v1.25.0/gorm.go:210	failed to initialize database, got error dial tcp 192.168.216.66:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+gorm.io/gorm.Open
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/gorm.go:210
+competition-backend/pkg/database.Conn
+	C:/Users/Coder/competition-backend/pkg/database/database.go:15
+competition-backend/bootstrap.SetupDB
+	C:/Users/Coder/competition-backend/bootstrap/database.go:31
+main.main
+	C:/Users/Coder/competition-backend/main.go:21
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-19 20:45:08	ERROR	redis/redis.go:44	Error Occurred:	{"error": "dial tcp 192.168.216.66:6379: i/o timeout"}
+competition-backend/pkg/redis.NewClient
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:44
+competition-backend/pkg/redis.Conn.func1
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:25
+sync.(*Once).doSlow
+	C:/software/Go/src/sync/once.go:74
+sync.(*Once).Do
+	C:/software/Go/src/sync/once.go:65
+competition-backend/pkg/redis.Conn
+	C:/Users/Coder/competition-backend/pkg/redis/redis.go:24
+competition-backend/bootstrap.SetupRedis
+	C:/Users/Coder/competition-backend/bootstrap/redis.go:10
+main.main
+	C:/Users/Coder/competition-backend/main.go:24
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-19 21:22:56	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "DELETE /api/v1/game-api/delete/?id=1", "query": "id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms", "Request Body": "", "Response Body": "{\"code\":404,\"message\":\"路由未定义，请确认 url 和请求方法是否正确\"}"}
+2023-04-19 21:23:46	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "DELETE /api/v1/game-api/delete/", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms", "Request Body": "", "Response Body": "{\"code\":404,\"message\":\"路由未定义，请确认 url 和请求方法是否正确\"}"}
+2023-04-19 21:24:00	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "DELETE /api/v1/game-api/games", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms", "Request Body": "", "Response Body": "{\"code\":404,\"message\":\"路由未定义，请确认 url 和请求方法是否正确\"}"}
+2023-04-19 21:24:18	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "13.218ms", "rows": 1}
+2023-04-20 08:25:35	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/user-api/users", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms"}
+2023-04-20 08:25:52	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/user-api/users/?id=1", "query": "id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms"}
+2023-04-20 08:25:59	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/user-api/users?id=1", "query": "id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms"}
+2023-04-20 08:26:45	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/user-api/users/?id=1", "query": "id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms"}
+2023-04-20 08:36:14	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/user-api/users/11", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms"}
+2023-04-20 08:36:23	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:39:33	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:39:41	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:39:41	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:40:04	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:40:13	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:40:16	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:40:16	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:40:16	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:40:29	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:40:42	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:42:52	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:43:02	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:43:22	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:43:22	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:43:22	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:43:27	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:43:38	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:47:31	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:47:31	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:47:31	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:48:48	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:49:26	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:49:26	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:49:26	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:49:28	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:49:28	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:50:07	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:50:07	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:50:07	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:52:01	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:52:08	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:52:08	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:52:13	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:52:13	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:52:13	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:52:42	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:52:59	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:53:16	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:53:16	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:53:16	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:53:24	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.642ms", "rows": 1}
+2023-04-20 08:53:55	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.797ms", "rows": 1}
+2023-04-20 08:54:52	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:54:53	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:54:57	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:54:57	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.671ms", "rows": 1}
+2023-04-20 08:59:34	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:59:34	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:59:40	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:59:40	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:59:40	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:59:42	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:59:42	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:59:52	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:59:52	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:59:52	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:59:53	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:59:54	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 08:59:57	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:00:01	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:00:05	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:00:11	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:00:20	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:00:20	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:00:22	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:00:26	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:00:47	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:00:47	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:00:47	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:01:10	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:01:10	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:03:21	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:03:26	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:03:27	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:04:54	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:04:54	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:05:04	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:05:04	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:05:15	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:05:15	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:05:15	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:05:25	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:05:34	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:05:56	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:05:57	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:05:57	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:05:59	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:06:01	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:06:01	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:06:09	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:06:15	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:06:21	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:06:28	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:06:47	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:06:47	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:06:47	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:06:55	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:07:01	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:07:08	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:14:38	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:14:38	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:14:38	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:15:47	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:17:55	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:18:14	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "POST /api/v1/question-api/index", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms", "Request Body": "", "Response Body": "{\"code\":404,\"message\":\"路由未定义，请确认 url 和请求方法是否正确\"}"}
+2023-04-20 09:18:20	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:18:20	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:18:23	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:18:24	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "POST /api/v1/question-api/index", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.518ms", "Request Body": "", "Response Body": "{\"code\":404,\"message\":\"路由未定义，请确认 url 和请求方法是否正确\"}"}
+2023-04-20 09:18:28	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.710ms", "rows": 1}
+2023-04-20 09:18:36	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:19:09	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:19:10	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:19:18	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:20:27	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:20:43	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:20:49	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:20:49	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:20:49	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:21:32	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:21:37	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:21:40	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:21:58	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:22:11	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:22:29	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:22:36	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:23:18	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:23:18	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:23:18	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:23:22	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:23:39	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:23:39	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:23:39	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:23:43	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.387ms", "rows": 1}
+2023-04-20 09:24:15	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:24:21	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:25:23	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:25:23	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:25:31	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:25:31	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:25:31	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:25:55	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:25:55	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:25:55	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:26:13	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/question-api/single/", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms"}
+2023-04-20 09:26:20	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.549ms", "rows": 1}
+2023-04-20 09:28:06	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:28:06	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:29:23	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:29:23	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:29:23	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:29:35	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:29:39	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:30:02	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "13.228ms", "rows": 1}
+2023-04-20 09:30:36	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:30:37	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:30:51	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:30:57	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:31:00	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:31:00	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:31:24	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:31:24	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:31:35	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:31:35	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:31:35	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.714ms", "rows": 1}
+2023-04-20 09:31:35	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:40:58	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.107ms", "rows": 1}
+2023-04-20 09:41:11	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "10.919ms", "rows": 1}
+2023-04-20 09:41:36	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:11	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:11	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:11	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:13	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:15	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:24	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:24	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:28	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:28	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:33	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:37	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:37	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:55	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:55	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:59	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:46:59	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:47:10	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:47:10	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:47:10	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:47:10	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:47:10	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:47:10	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:47:10	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:47:15	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:47:15	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:47:45	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:47:45	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:47:49	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:48:06	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:48:06	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:48:10	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:48:10	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:52:37	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:52:37	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-20 09:58:02	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.708ms", "rows": 1}
+2023-04-20 09:58:55	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.446ms", "rows": 1}
+2023-04-20 09:58:55	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`,`created_at`,`updated_at`) VALUES ('题目名称1','题目描述1','题目答案哈哈哈',10,'2023-04-20 09:58:55.13','2023-04-20 09:58:55.13') RETURNING `id`", "time": "13.140ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.questions' doesn't exist"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).Create
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:26
+competition-backend/app/http/models/question.(*Question).Create
+	C:/Users/Coder/competition-backend/app/http/models/question/question.go:20
+competition-backend/app/http/controllers/api/v1.(*QuestionAPIController).Create
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/question.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+competition-backend/app/http/middlewares.JWT.func1
+	C:/Users/Coder/competition-backend/app/http/middlewares/jwt.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-20 09:58:55	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`,`created_at`,`updated_at`) VALUES ('题目名称1','题目描述1','题目答案哈哈哈',10,'2023-04-20 09:58:55.13','2023-04-20 09:58:55.13') RETURNING `id`", "time": "13.140ms", "rows": 0, "error": "Error 1146 (42S02): Table 'go-db.questions' doesn't exist"}
+2023-04-20 10:01:11	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.331ms", "rows": 1}
+2023-04-20 10:01:11	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`,`created_at`,`updated_at`) VALUES ('题目名称1','题目描述1','题目答案哈哈哈',10,'2023-04-20 10:01:11.211','2023-04-20 10:01:11.211') RETURNING `id`", "time": "11.993ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).Create
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:26
+competition-backend/app/http/models/question.(*Question).Create
+	C:/Users/Coder/competition-backend/app/http/models/question/question.go:20
+competition-backend/app/http/controllers/api/v1.(*QuestionAPIController).Create
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/question.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+competition-backend/app/http/middlewares.JWT.func1
+	C:/Users/Coder/competition-backend/app/http/middlewares/jwt.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-20 10:01:11	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`,`created_at`,`updated_at`) VALUES ('题目名称1','题目描述1','题目答案哈哈哈',10,'2023-04-20 10:01:11.211','2023-04-20 10:01:11.211') RETURNING `id`", "time": "11.993ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+2023-04-20 10:01:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.227ms", "rows": 1}
+2023-04-20 10:01:39	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`,`created_at`,`updated_at`) VALUES ('题目名称1','题目描述1','题目答案哈哈哈',10,'2023-04-20 10:01:39.644','2023-04-20 10:01:39.644') RETURNING `id`", "time": "12.207ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).Create
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:26
+competition-backend/app/http/models/question.(*Question).Create
+	C:/Users/Coder/competition-backend/app/http/models/question/question.go:20
+competition-backend/app/http/controllers/api/v1.(*QuestionAPIController).Create
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/question.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+competition-backend/app/http/middlewares.JWT.func1
+	C:/Users/Coder/competition-backend/app/http/middlewares/jwt.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-20 10:01:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`,`created_at`,`updated_at`) VALUES ('题目名称1','题目描述1','题目答案哈哈哈',10,'2023-04-20 10:01:39.644','2023-04-20 10:01:39.644') RETURNING `id`", "time": "12.207ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+2023-04-20 10:01:51	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.393ms", "rows": 1}
+2023-04-20 10:01:51	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`,`created_at`,`updated_at`) VALUES ('题目名称1','题目描述1','题目答案哈哈哈',10,'2023-04-20 10:01:51.203','2023-04-20 10:01:51.203') RETURNING `id`", "time": "12.427ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).Create
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:26
+competition-backend/app/http/models/question.(*Question).Create
+	C:/Users/Coder/competition-backend/app/http/models/question/question.go:20
+competition-backend/app/http/controllers/api/v1.(*QuestionAPIController).Create
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/question.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+competition-backend/app/http/middlewares.JWT.func1
+	C:/Users/Coder/competition-backend/app/http/middlewares/jwt.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-20 10:01:51	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`,`created_at`,`updated_at`) VALUES ('题目名称1','题目描述1','题目答案哈哈哈',10,'2023-04-20 10:01:51.203','2023-04-20 10:01:51.203') RETURNING `id`", "time": "12.427ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+2023-04-20 10:02:23	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.260ms", "rows": 1}
+2023-04-20 10:02:23	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`) VALUES ('题目名称1','题目描述1','题目答案哈哈哈',10) RETURNING `id`", "time": "13.960ms", "rows": 0, "error": "Error 1364 (HY000): Field 'create_at' doesn't have a default value"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).Create
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:26
+competition-backend/app/http/models/question.(*Question).Create
+	C:/Users/Coder/competition-backend/app/http/models/question/question.go:18
+competition-backend/app/http/controllers/api/v1.(*QuestionAPIController).Create
+	C:/Users/Coder/competition-backend/app/http/controllers/api/v1/question.go:30
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+competition-backend/app/http/middlewares.JWT.func1
+	C:/Users/Coder/competition-backend/app/http/middlewares/jwt.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Coder/go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+	C:/software/Go/src/net/http/server.go:2947
+net/http.(*conn).serve
+	C:/software/Go/src/net/http/server.go:1991
+2023-04-20 10:02:23	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`) VALUES ('题目名称1','题目描述1','题目答案哈哈哈',10) RETURNING `id`", "time": "13.960ms", "rows": 0, "error": "Error 1364 (HY000): Field 'create_at' doesn't have a default value"}
+2023-04-20 10:02:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.053ms", "rows": 1}
+2023-04-20 10:02:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`) VALUES ('题目名称1','题目描述1','题目答案哈哈哈',10) RETURNING `id`", "time": "13.972ms", "rows": 1}
+2023-04-20 10:18:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.631ms", "rows": 1}
+2023-04-20 10:18:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`) VALUES ('题目名称2','题目描述2','题目答案哈哈哈',20) RETURNING `id`", "time": "14.822ms", "rows": 1}
+2023-04-20 10:28:58	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "13.148ms", "rows": 1}
+2023-04-20 10:29:07	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.151ms", "rows": 1}
+2023-04-20 10:29:23	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.470ms", "rows": 1}
+2023-04-20 10:29:23	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`) VALUES ('题目名称2','题目描述2','题目答案哈哈哈',0) RETURNING `id`", "time": "14.604ms", "rows": 1}
+2023-04-20 10:30:51	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "POST /api/v1/question-api/single/1", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms", "Request Body": "{\r\n    \"title\": \"题目名称2\",\r\n    \"desc\": \"题目描述2\",\r\n    \"answer\": \"题目答案哈哈哈\"\r\n}", "Response Body": "{\"code\":404,\"message\":\"路由未定义，请确认 url 和请求方法是否正确\"}"}
+2023-04-20 10:30:56	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.675ms", "rows": 1}
+2023-04-20 10:31:29	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.907ms", "rows": 1}
+2023-04-20 10:31:51	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.378ms", "rows": 1}
+2023-04-20 10:31:53	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "9.870ms", "rows": 1}
+2023-04-20 14:44:50	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.310ms", "rows": 1}
+2023-04-20 14:44:58	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.649ms", "rows": 1}
+2023-04-20 14:44:58	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `questions` (`title`,`desc`,`answer`,`score`) VALUES ('题目名称2','题目描述2','题目答案哈哈哈',100) RETURNING `id`", "time": "70.405ms", "rows": 1}
+2023-04-20 14:46:08	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "10.920ms", "rows": 1}
+2023-04-20 14:46:08	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `questions` WHERE `id` = '1' ORDER BY `questions`.`id` LIMIT 1", "time": "11.199ms", "rows": 1}
+2023-04-20 14:46:12	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.278ms", "rows": 1}
+2023-04-20 14:46:12	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `questions` WHERE `id` = '2' ORDER BY `questions`.`id` LIMIT 1", "time": "11.381ms", "rows": 1}
+2023-04-20 14:46:17	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.519ms", "rows": 1}
+2023-04-20 14:46:17	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `questions` WHERE `id` = '3' ORDER BY `questions`.`id` LIMIT 1", "time": "11.215ms", "rows": 1}
+2023-04-20 14:46:30	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/question-api/list", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.711ms"}
+2023-04-20 14:52:02	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "DELETE /api/v1/question-api/delete/11", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms", "Request Body": "", "Response Body": "{\"code\":404,\"message\":\"路由未定义，请确认 url 和请求方法是否正确\"}"}
+2023-04-20 14:52:12	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "DELETE /api/v1/question-api/delete/4", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms", "Request Body": "", "Response Body": "{\"code\":404,\"message\":\"路由未定义，请确认 url 和请求方法是否正确\"}"}
+2023-04-20 14:53:00	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.307ms", "rows": 1}
+2023-04-20 14:53:00	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `questions` WHERE `id` = '4' ORDER BY `questions`.`id` LIMIT 1", "time": "11.178ms", "rows": 1}
+2023-04-20 14:53:00	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "DELETE FROM `questions` WHERE `questions`.`id` = 4", "time": "14.078ms", "rows": 1}
+2023-04-20 14:53:16	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.423ms", "rows": 1}
+2023-04-20 14:53:16	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `questions` WHERE `id` = '3' ORDER BY `questions`.`id` LIMIT 1", "time": "11.514ms", "rows": 1}
+2023-04-20 14:53:16	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "DELETE FROM `questions` WHERE `questions`.`id` = 3", "time": "13.781ms", "rows": 1}
+2023-04-20 14:56:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "11.080ms", "rows": 1}
+2023-04-20 15:03:41	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.693ms", "rows": 1}
+2023-04-20 15:03:41	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `questions` WHERE `id` = '2' ORDER BY `questions`.`id` LIMIT 1", "time": "11.697ms", "rows": 1}
+2023-04-20 15:03:41	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "UPDATE `questions` SET `title`='我修改了题目名称2',`desc`='我修改了题目描述2',`answer`='我修改了题目答案哈哈哈',`score`=50 WHERE `id` = 2", "time": "36.311ms", "rows": 1}
+2023-04-20 15:23:58	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "PATCH /api/v1/question-api/update/1", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.589ms"}
+2023-04-20 15:24:11	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.751ms", "rows": 1}
+2023-04-20 15:24:12	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `questions` WHERE `id` = '1' ORDER BY `questions`.`id` LIMIT 1", "time": "11.429ms", "rows": 1}
+2023-04-20 15:24:12	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "UPDATE `questions` SET `title`='我修改了题目名称1',`desc`='我修改了题目描述1',`answer`='我修改了题目答案哈哈哈',`score`=100 WHERE `id` = 1", "time": "29.829ms", "rows": 1}
+2023-04-20 16:28:09	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.669ms", "rows": 1}
+2023-04-20 16:28:09	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `questions` WHERE `id` = '1' ORDER BY `questions`.`id` LIMIT 1", "time": "11.987ms", "rows": 1}
+2023-04-20 16:28:46	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `admin` WHERE `id` = '1' ORDER BY `admin`.`id` LIMIT 1", "time": "12.402ms", "rows": 1}
+2023-04-20 16:28:46	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `questions` WHERE `id` = '1' ORDER BY `questions`.`id` LIMIT 1", "time": "12.173ms", "rows": 1}
+2023-04-21 09:28:30	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/manager-api/", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms"}
+2023-04-21 09:43:21	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:43:21	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/manager/", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.433ms"}
+2023-04-21 09:43:22	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/manager/", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.000ms"}
+2023-04-21 09:45:02	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:45:39	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:45:40	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:45:40	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:45:47	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:45:47	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:46:06	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:46:06	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:46:18	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:48:41	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:48:46	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:48:47	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:49:36	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:49:40	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:50:17	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:54:41	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:54:46	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:54:46	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:54:53	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:54:57	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:55:12	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 09:55:51	ERROR	bootstrap/router.go:27	listen tcp :3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+competition-backend/bootstrap.SetupRouter
+	C:/Users/Coder/competition-backend/bootstrap/router.go:27
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 10:38:47	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "10.121ms", "rows": 1}
+2023-04-21 10:48:24	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.475ms", "rows": 0}
+2023-04-21 10:48:24	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.475ms", "rows": 0}
+2023-04-21 10:50:45	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "11.320ms", "rows": 0}
+2023-04-21 10:50:45	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "11.320ms", "rows": 0}
+2023-04-21 10:51:06	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "10.255ms", "rows": 0}
+2023-04-21 10:51:06	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "10.255ms", "rows": 0}
+2023-04-21 10:51:43	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.823ms", "rows": 0}
+2023-04-21 10:51:43	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.823ms", "rows": 0}
+2023-04-21 10:55:47	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.715ms", "rows": 1}
+2023-04-21 10:56:01	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "10.521ms", "rows": 1}
+2023-04-21 11:18:57	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.469ms", "rows": 1}
+2023-04-21 11:18:57	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `manager` (`username`,`password`) VALUES ('admin','123456') RETURNING `id`", "time": "12.780ms", "rows": 1}
+2023-04-21 11:19:37	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.243ms", "rows": 1}
+2023-04-21 11:20:08	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.051ms", "rows": 1}
+2023-04-21 11:28:36	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.585ms", "rows": 1}
+2023-04-21 11:28:37	WARN	gorm@v1.25.0/callbacks.go:134	Database Slow Log	{"sql": "INSERT INTO `manager` (`username`,`password`) VALUES ('admin','$2a$14$Ft0EzD2pc7oHopgTJLDoVOn5AvZj1WzlBwX.eeoKTHOuFciBY1VIe') RETURNING `id`", "time": "825.979ms", "rows": 1}
+2023-04-21 11:28:37	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `manager` (`username`,`password`) VALUES ('admin','$2a$14$Ft0EzD2pc7oHopgTJLDoVOn5AvZj1WzlBwX.eeoKTHOuFciBY1VIe') RETURNING `id`", "time": "825.979ms", "rows": 1}
+2023-04-21 11:29:03	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.255ms", "rows": 0}
+2023-04-21 11:29:03	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.255ms", "rows": 0}
+2023-04-21 11:29:26	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.420ms", "rows": 1}
+2023-04-21 11:32:09	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.499ms", "rows": 1}
+2023-04-21 11:32:16	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.222ms", "rows": 1}
+2023-04-21 14:41:25	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "7.861ms", "rows": 1}
+2023-04-21 14:41:26	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`,`id`) VALUES ('admin','$2a$14$IyH09OzthHur1JX9FMeO.u.pNU3ot.7okjvqiIpdNirJp2J4ae4dO','2023-04-21 14:41:26.27','2023-04-21 14:41:26.27',1649302299668910080) RETURNING `id`", "time": "820.341ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).Create
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:26
+competition-backend/bootstrap.createManager
+	C:/Users/Coder/competition-backend/bootstrap/manager.go:27
+competition-backend/bootstrap.SetupManager
+	C:/Users/Coder/competition-backend/bootstrap/manager.go:18
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 14:41:26	WARN	gorm@v1.25.0/callbacks.go:134	Database Slow Log	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`,`id`) VALUES ('admin','$2a$14$IyH09OzthHur1JX9FMeO.u.pNU3ot.7okjvqiIpdNirJp2J4ae4dO','2023-04-21 14:41:26.27','2023-04-21 14:41:26.27',1649302299668910080) RETURNING `id`", "time": "820.341ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+2023-04-21 14:41:26	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`,`id`) VALUES ('admin','$2a$14$IyH09OzthHur1JX9FMeO.u.pNU3ot.7okjvqiIpdNirJp2J4ae4dO','2023-04-21 14:41:26.27','2023-04-21 14:41:26.27',1649302299668910080) RETURNING `id`", "time": "820.341ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+2023-04-21 14:41:26	ERROR	bootstrap/manager.go:20	Bootstrap	{"Manager": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+competition-backend/bootstrap.SetupManager
+	C:/Users/Coder/competition-backend/bootstrap/manager.go:20
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 14:43:36	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.057ms", "rows": 1}
+2023-04-21 14:43:37	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`,`id`) VALUES ('admin','$2a$14$hRkARuO6xiUL5H8JvkEDn.iffO7QZIcAUROKf/DpkKX5T5m7dTE6C','2023-04-21 14:43:37.283','2023-04-21 14:43:37.283',1649302849168871424) RETURNING `id`", "time": "821.979ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).Create
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:26
+competition-backend/bootstrap.createManager
+	C:/Users/Coder/competition-backend/bootstrap/manager.go:27
+competition-backend/bootstrap.SetupManager
+	C:/Users/Coder/competition-backend/bootstrap/manager.go:18
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 14:43:37	WARN	gorm@v1.25.0/callbacks.go:134	Database Slow Log	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`,`id`) VALUES ('admin','$2a$14$hRkARuO6xiUL5H8JvkEDn.iffO7QZIcAUROKf/DpkKX5T5m7dTE6C','2023-04-21 14:43:37.283','2023-04-21 14:43:37.283',1649302849168871424) RETURNING `id`", "time": "821.979ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+2023-04-21 14:43:37	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`,`id`) VALUES ('admin','$2a$14$hRkARuO6xiUL5H8JvkEDn.iffO7QZIcAUROKf/DpkKX5T5m7dTE6C','2023-04-21 14:43:37.283','2023-04-21 14:43:37.283',1649302849168871424) RETURNING `id`", "time": "821.979ms", "rows": 0, "error": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+2023-04-21 14:43:37	ERROR	bootstrap/manager.go:20	Bootstrap	{"Manager": "Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+competition-backend/bootstrap.SetupManager
+	C:/Users/Coder/competition-backend/bootstrap/manager.go:20
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 14:44:07	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "7.703ms", "rows": 1}
+2023-04-21 14:44:08	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`,`id`) VALUES ('admin','$2a$14$pL520mky8Ip8qqw1PJ5.OumT5YWuGkEdBOGrwSK09BNvzb/nInc2W','2023-04-21 14:44:08.003','2023-04-21 14:44:08.003',1649302978034667520) RETURNING `id`", "time": "820.262ms", "rows": 0, "error": "Error 1264 (22003): Out of range value for column 'id' at row 1"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).Create
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:26
+competition-backend/bootstrap.createManager
+	C:/Users/Coder/competition-backend/bootstrap/manager.go:27
+competition-backend/bootstrap.SetupManager
+	C:/Users/Coder/competition-backend/bootstrap/manager.go:18
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 14:44:08	WARN	gorm@v1.25.0/callbacks.go:134	Database Slow Log	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`,`id`) VALUES ('admin','$2a$14$pL520mky8Ip8qqw1PJ5.OumT5YWuGkEdBOGrwSK09BNvzb/nInc2W','2023-04-21 14:44:08.003','2023-04-21 14:44:08.003',1649302978034667520) RETURNING `id`", "time": "820.262ms", "rows": 0, "error": "Error 1264 (22003): Out of range value for column 'id' at row 1"}
+2023-04-21 14:44:08	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`,`id`) VALUES ('admin','$2a$14$pL520mky8Ip8qqw1PJ5.OumT5YWuGkEdBOGrwSK09BNvzb/nInc2W','2023-04-21 14:44:08.003','2023-04-21 14:44:08.003',1649302978034667520) RETURNING `id`", "time": "820.262ms", "rows": 0, "error": "Error 1264 (22003): Out of range value for column 'id' at row 1"}
+2023-04-21 14:44:08	ERROR	bootstrap/manager.go:20	Bootstrap	{"Manager": "Error 1264 (22003): Out of range value for column 'id' at row 1"}
+competition-backend/bootstrap.SetupManager
+	C:/Users/Coder/competition-backend/bootstrap/manager.go:20
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 14:45:01	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.084ms", "rows": 1}
+2023-04-21 14:45:01	WARN	gorm@v1.25.0/callbacks.go:134	Database Slow Log	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`,`id`) VALUES ('admin','$2a$14$0WO0Wrh0kRVXBQwPSNiKqelp0nZ1R8yd9khQTIjEDuFHuP6iSnW2m','2023-04-21 14:45:01.987','2023-04-21 14:45:01.987',1649303204451586048) RETURNING `id`", "time": "823.078ms", "rows": 1}
+2023-04-21 14:45:01	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`,`id`) VALUES ('admin','$2a$14$0WO0Wrh0kRVXBQwPSNiKqelp0nZ1R8yd9khQTIjEDuFHuP6iSnW2m','2023-04-21 14:45:01.987','2023-04-21 14:45:01.987',1649303204451586048) RETURNING `id`", "time": "823.078ms", "rows": 1}
+2023-04-21 14:55:24	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.597ms", "rows": 1}
+2023-04-21 14:55:36	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.975ms", "rows": 1}
+2023-04-21 14:56:11	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE id = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "9.682ms", "rows": 0}
+2023-04-21 14:56:11	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE id = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "9.682ms", "rows": 0}
+2023-04-21 15:08:24	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "POST /api/v1/manager-api/logout", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.32.2", "errors": "", "time": "0.071ms", "Request Body": "{\r\n    \"username\": \"admin\",\r\n    \"password\": \"123456\"\r\n}", "Response Body": "{\"code\":404,\"message\":\"路由未定义，请确认 url 和请求方法是否正确\"}"}
+2023-04-21 15:09:05	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.523ms", "rows": 1}
+2023-04-21 15:11:36	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "11.145ms", "rows": 1}
+2023-04-21 15:11:41	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE id = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "8.672ms", "rows": 0}
+2023-04-21 15:11:41	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE id = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "8.672ms", "rows": 0}
+2023-04-21 15:11:44	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE id = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "10.223ms", "rows": 0}
+2023-04-21 15:11:44	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE id = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "10.223ms", "rows": 0}
+2023-04-21 15:12:18	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.797ms", "rows": 1}
+2023-04-21 15:12:20	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE id = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "9.923ms", "rows": 0}
+2023-04-21 15:12:20	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE id = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "9.923ms", "rows": 0}
+2023-04-21 15:12:54	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.203ms", "rows": 1}
+2023-04-21 15:13:06	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.043ms", "rows": 1}
+2023-04-21 15:13:13	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "10.106ms", "rows": 0}
+2023-04-21 15:13:13	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "10.106ms", "rows": 0}
+2023-04-21 15:13:15	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "9.316ms", "rows": 0}
+2023-04-21 15:13:15	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "9.316ms", "rows": 0}
+2023-04-21 15:13:22	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "9.221ms", "rows": 0}
+2023-04-21 15:13:22	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = 1 ORDER BY `manager`.`id` LIMIT 1", "time": "9.221ms", "rows": 0}
+2023-04-21 15:25:15	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "7.807ms", "rows": 1}
+2023-04-21 15:25:16	WARN	gorm@v1.25.0/callbacks.go:134	Database Slow Log	{"sql": "INSERT INTO `manager` (`id`,`username`,`password`,`created_at`,`updated_at`) VALUES ('1649313332584255488','admin','$2a$14$2T4ToJfjV9HTX974dATlHuvC3kyGSy0OwefnW6Kg1ePd3/tnm8tT6','2023-04-21 15:25:16.72','2023-04-21 15:25:16.72')", "time": "820.162ms", "rows": 1}
+2023-04-21 15:25:16	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `manager` (`id`,`username`,`password`,`created_at`,`updated_at`) VALUES ('1649313332584255488','admin','$2a$14$2T4ToJfjV9HTX974dATlHuvC3kyGSy0OwefnW6Kg1ePd3/tnm8tT6','2023-04-21 15:25:16.72','2023-04-21 15:25:16.72')", "time": "820.162ms", "rows": 1}
+2023-04-21 15:26:09	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.677ms", "rows": 1}
+2023-04-21 15:26:23	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.577ms", "rows": 0}
+2023-04-21 15:26:23	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.577ms", "rows": 0}
+2023-04-21 15:27:49	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.135ms", "rows": 1}
+2023-04-21 15:27:53	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.049ms", "rows": 0}
+2023-04-21 15:27:53	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.049ms", "rows": 0}
+2023-04-21 15:28:15	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.490ms", "rows": 0}
+2023-04-21 15:28:15	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.490ms", "rows": 0}
+2023-04-21 15:28:16	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.716ms", "rows": 0}
+2023-04-21 15:28:16	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.716ms", "rows": 0}
+2023-04-21 15:28:19	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "8.759ms", "rows": 0}
+2023-04-21 15:28:19	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "8.759ms", "rows": 0}
+2023-04-21 15:28:38	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.761ms", "rows": 0}
+2023-04-21 15:28:38	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.761ms", "rows": 0}
+2023-04-21 15:28:43	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "10.889ms", "rows": 0}
+2023-04-21 15:28:43	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "10.889ms", "rows": 0}
+2023-04-21 15:28:44	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "8.580ms", "rows": 0}
+2023-04-21 15:28:44	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "8.580ms", "rows": 0}
+2023-04-21 15:28:45	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.505ms", "rows": 0}
+2023-04-21 15:28:45	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.505ms", "rows": 0}
+2023-04-21 15:28:46	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.557ms", "rows": 0}
+2023-04-21 15:28:46	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '1' ORDER BY `manager`.`id` LIMIT 1", "time": "9.557ms", "rows": 0}
+2023-04-21 15:31:57	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.463ms", "rows": 1}
+2023-04-21 15:32:53	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "7.608ms", "rows": 1}
+2023-04-21 15:34:24	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "9.113ms", "rows": 1}
+2023-04-21 15:34:29	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.569ms", "rows": 1}
+2023-04-21 15:36:13	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.438ms", "rows": 1}
+2023-04-21 15:36:39	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.219ms", "rows": 0}
+2023-04-21 15:36:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.219ms", "rows": 0}
+2023-04-21 15:37:04	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "11.237ms", "rows": 0}
+2023-04-21 15:37:04	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "11.237ms", "rows": 0}
+2023-04-21 15:38:15	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.538ms", "rows": 1}
+2023-04-21 15:38:21	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.890ms", "rows": 1}
+2023-04-21 15:40:01	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.315ms", "rows": 1}
+2023-04-21 15:40:03	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "11.764ms", "rows": 1}
+2023-04-21 15:40:35	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "7.249ms", "rows": 1}
+2023-04-21 15:40:38	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.811ms", "rows": 1}
+2023-04-21 15:43:08	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.263ms", "rows": 1}
+2023-04-21 15:43:11	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "10.841ms", "rows": 1}
+2023-04-21 15:43:21	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.938ms", "rows": 0}
+2023-04-21 15:43:21	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.938ms", "rows": 0}
+2023-04-21 15:43:22	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "10.204ms", "rows": 0}
+2023-04-21 15:43:22	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "10.204ms", "rows": 0}
+2023-04-21 15:43:53	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.937ms", "rows": 0}
+2023-04-21 15:43:53	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.937ms", "rows": 0}
+2023-04-21 15:44:12	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.918ms", "rows": 0}
+2023-04-21 15:44:12	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.918ms", "rows": 0}
+2023-04-21 15:44:22	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.194ms", "rows": 1}
+2023-04-21 15:44:29	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.550ms", "rows": 1}
+2023-04-21 15:44:34	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.913ms", "rows": 0}
+2023-04-21 15:44:34	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.913ms", "rows": 0}
+2023-04-21 15:45:04	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "7.998ms", "rows": 1}
+2023-04-21 15:45:07	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "8.873ms", "rows": 0}
+2023-04-21 15:45:07	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "8.873ms", "rows": 0}
+2023-04-21 15:45:07	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "8.932ms", "rows": 0}
+2023-04-21 15:45:07	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "8.932ms", "rows": 0}
+2023-04-21 15:45:20	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "7.935ms", "rows": 0}
+2023-04-21 15:45:20	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "7.935ms", "rows": 0}
+2023-04-21 15:45:20	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.165ms", "rows": 0}
+2023-04-21 15:45:20	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.165ms", "rows": 0}
+2023-04-21 15:45:21	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.093ms", "rows": 0}
+2023-04-21 15:45:21	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.093ms", "rows": 0}
+2023-04-21 15:45:23	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "8.971ms", "rows": 0}
+2023-04-21 15:45:23	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "8.971ms", "rows": 0}
+2023-04-21 15:46:14	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.154ms", "rows": 1}
+2023-04-21 15:46:17	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.873ms", "rows": 1}
+2023-04-21 15:46:20	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.200ms", "rows": 0}
+2023-04-21 15:46:20	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.200ms", "rows": 0}
+2023-04-21 15:46:21	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.060ms", "rows": 0}
+2023-04-21 15:46:21	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.060ms", "rows": 0}
+2023-04-21 15:47:22	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.333ms", "rows": 1}
+2023-04-21 15:47:29	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.002ms", "rows": 1}
+2023-04-21 15:47:33	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "8.455ms", "rows": 0}
+2023-04-21 15:47:33	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "8.455ms", "rows": 0}
+2023-04-21 15:49:44	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.395ms", "rows": 1}
+2023-04-21 15:49:58	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.452ms", "rows": 1}
+2023-04-21 15:50:07	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.078ms", "rows": 0}
+2023-04-21 15:50:07	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.078ms", "rows": 0}
+2023-04-21 15:50:52	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "8.979ms", "rows": 0}
+2023-04-21 15:50:52	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "8.979ms", "rows": 0}
+2023-04-21 15:50:53	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.006ms", "rows": 0}
+2023-04-21 15:50:53	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.006ms", "rows": 0}
+2023-04-21 15:50:53	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.152ms", "rows": 0}
+2023-04-21 15:50:53	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '' ORDER BY `manager`.`id` LIMIT 1", "time": "9.152ms", "rows": 0}
+2023-04-21 15:51:21	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.039ms", "rows": 1}
+2023-04-21 15:51:26	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.501ms", "rows": 1}
+2023-04-21 15:51:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '1649313332584255488' ORDER BY `manager`.`id` LIMIT 1", "time": "9.129ms", "rows": 1}
+2023-04-21 15:56:08	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.242ms", "rows": 1}
+2023-04-21 15:56:20	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.948ms", "rows": 1}
+2023-04-21 15:56:23	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.964ms", "rows": 0}
+2023-04-21 15:56:23	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.964ms", "rows": 0}
+2023-04-21 15:56:39	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.361ms", "rows": 0}
+2023-04-21 15:56:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.361ms", "rows": 0}
+2023-04-21 16:00:18	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "7.851ms", "rows": 1}
+2023-04-21 16:01:06	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.687ms", "rows": 1}
+2023-04-21 16:01:08	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.527ms", "rows": 0}
+2023-04-21 16:01:08	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.527ms", "rows": 0}
+2023-04-21 16:01:09	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.139ms", "rows": 0}
+2023-04-21 16:01:09	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.139ms", "rows": 0}
+2023-04-21 16:04:35	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.104ms", "rows": 1}
+2023-04-21 16:04:35	ERROR	gorm@v1.25.0/callbacks.go:134	Database Error	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`) VALUES ('admin','123456','2023-04-21 16:04:35.912','2023-04-21 16:04:35.912') RETURNING `id`", "time": "820.150ms", "rows": 0, "error": "Error 1364 (HY000): Field 'id' doesn't have a default value"}
+gorm.io/gorm.(*processor).Execute
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/callbacks.go:134
+gorm.io/gorm.(*DB).Create
+	C:/Users/Coder/go/pkg/mod/gorm.io/gorm@v1.25.0/finisher_api.go:26
+competition-backend/bootstrap.createManager
+	C:/Users/Coder/competition-backend/bootstrap/manager.go:26
+competition-backend/bootstrap.SetupManager
+	C:/Users/Coder/competition-backend/bootstrap/manager.go:17
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 16:04:35	WARN	gorm@v1.25.0/callbacks.go:134	Database Slow Log	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`) VALUES ('admin','123456','2023-04-21 16:04:35.912','2023-04-21 16:04:35.912') RETURNING `id`", "time": "820.150ms", "rows": 0, "error": "Error 1364 (HY000): Field 'id' doesn't have a default value"}
+2023-04-21 16:04:35	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`) VALUES ('admin','123456','2023-04-21 16:04:35.912','2023-04-21 16:04:35.912') RETURNING `id`", "time": "820.150ms", "rows": 0, "error": "Error 1364 (HY000): Field 'id' doesn't have a default value"}
+2023-04-21 16:04:35	ERROR	bootstrap/manager.go:19	Bootstrap	{"Manager": "Error 1364 (HY000): Field 'id' doesn't have a default value"}
+competition-backend/bootstrap.SetupManager
+	C:/Users/Coder/competition-backend/bootstrap/manager.go:19
+main.main
+	C:/Users/Coder/competition-backend/main.go:27
+runtime.main
+	C:/software/Go/src/runtime/proc.go:250
+2023-04-21 16:18:26	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "7.930ms", "rows": 1}
+2023-04-21 16:18:27	WARN	gorm@v1.25.0/callbacks.go:134	Database Slow Log	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`) VALUES ('admin','123456','2023-04-21 16:18:27.036','2023-04-21 16:18:27.036') RETURNING `id`", "time": "820.418ms", "rows": 1}
+2023-04-21 16:18:27	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`) VALUES ('admin','123456','2023-04-21 16:18:27.036','2023-04-21 16:18:27.036') RETURNING `id`", "time": "820.418ms", "rows": 1}
+2023-04-21 16:18:40	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.195ms", "rows": 1}
+2023-04-21 16:21:05	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "7.774ms", "rows": 1}
+2023-04-21 16:21:17	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.164ms", "rows": 1}
+2023-04-21 16:21:18	WARN	gorm@v1.25.0/callbacks.go:134	Database Slow Log	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`) VALUES ('admin','123456','2023-04-21 16:21:18.048','2023-04-21 16:21:18.048') RETURNING `id`", "time": "823.778ms", "rows": 1}
+2023-04-21 16:21:18	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`) VALUES ('admin','123456','2023-04-21 16:21:18.048','2023-04-21 16:21:18.048') RETURNING `id`", "time": "823.778ms", "rows": 1}
+2023-04-21 16:21:59	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.212ms", "rows": 1}
+2023-04-21 16:25:11	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.530ms", "rows": 1}
+2023-04-21 16:26:07	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.023ms", "rows": 1}
+2023-04-21 16:26:08	WARN	gorm@v1.25.0/callbacks.go:134	Database Slow Log	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`) VALUES ('admin','$2a$14$KbGOfOB3hsIcKP9h6..Wx.BWOVHugtxrocHpuyx.MUtlfcLNvnHHm','2023-04-21 16:26:08.568','2023-04-21 16:26:08.568') RETURNING `id`", "time": "821.759ms", "rows": 1}
+2023-04-21 16:26:08	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`) VALUES ('admin','$2a$14$KbGOfOB3hsIcKP9h6..Wx.BWOVHugtxrocHpuyx.MUtlfcLNvnHHm','2023-04-21 16:26:08.568','2023-04-21 16:26:08.568') RETURNING `id`", "time": "821.759ms", "rows": 1}
+2023-04-21 16:26:15	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.853ms", "rows": 1}
+2023-04-21 16:26:18	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.708ms", "rows": 0}
+2023-04-21 16:26:18	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.708ms", "rows": 0}
+2023-04-21 16:26:20	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.445ms", "rows": 0}
+2023-04-21 16:26:20	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.445ms", "rows": 0}
+2023-04-21 16:26:50	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "7.963ms", "rows": 1}
+2023-04-21 16:26:51	WARN	gorm@v1.25.0/callbacks.go:134	Database Slow Log	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`) VALUES ('admin','$2a$14$LKw.n7Qtb4IAEKo7WdlwS.krHq/yDevoZ3vgdjEy1f6t/sh7z5Bum','2023-04-21 16:26:51.152','2023-04-21 16:26:51.152') RETURNING `id`", "time": "827.796ms", "rows": 1}
+2023-04-21 16:26:51	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "INSERT INTO `manager` (`username`,`password`,`created_at`,`updated_at`) VALUES ('admin','$2a$14$LKw.n7Qtb4IAEKo7WdlwS.krHq/yDevoZ3vgdjEy1f6t/sh7z5Bum','2023-04-21 16:26:51.152','2023-04-21 16:26:51.152') RETURNING `id`", "time": "827.796ms", "rows": 1}
+2023-04-21 16:27:08	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.480ms", "rows": 1}
+2023-04-21 16:27:11	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.229ms", "rows": 0}
+2023-04-21 16:27:11	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.229ms", "rows": 0}
+2023-04-21 16:27:12	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.492ms", "rows": 0}
+2023-04-21 16:27:12	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.492ms", "rows": 0}
+2023-04-21 16:27:12	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.303ms", "rows": 0}
+2023-04-21 16:27:12	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.303ms", "rows": 0}
+2023-04-21 16:27:14	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.375ms", "rows": 0}
+2023-04-21 16:27:14	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.375ms", "rows": 0}
+2023-04-21 16:28:48	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "7.913ms", "rows": 1}
+2023-04-21 16:28:53	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.865ms", "rows": 1}
+2023-04-21 16:28:57	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.480ms", "rows": 0}
+2023-04-21 16:28:57	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.480ms", "rows": 0}
+2023-04-21 16:28:58	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.846ms", "rows": 0}
+2023-04-21 16:28:58	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.846ms", "rows": 0}
+2023-04-21 16:34:00	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.810ms", "rows": 1}
+2023-04-21 16:34:13	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "10.136ms", "rows": 0}
+2023-04-21 16:34:13	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "10.136ms", "rows": 0}
+2023-04-21 16:34:14	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.519ms", "rows": 0}
+2023-04-21 16:34:14	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.519ms", "rows": 0}
+2023-04-21 16:34:18	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.435ms", "rows": 1}
+2023-04-21 16:34:21	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.720ms", "rows": 0}
+2023-04-21 16:34:21	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "8.720ms", "rows": 0}
+2023-04-21 16:35:11	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.973ms", "rows": 0}
+2023-04-21 16:35:11	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.973ms", "rows": 0}
+2023-04-21 16:35:12	WARN	gorm@v1.25.0/callbacks.go:134	Database ErrRecordNotFound	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.660ms", "rows": 0}
+2023-04-21 16:35:12	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '0' ORDER BY `manager`.`id` LIMIT 1", "time": "9.660ms", "rows": 0}
+2023-04-21 16:36:03	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.234ms", "rows": 1}
+2023-04-21 16:36:13	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "10.637ms", "rows": 1}
+2023-04-21 16:36:15	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "8.574ms", "rows": 1}
+2023-04-21 16:37:43	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "7.990ms", "rows": 1}
+2023-04-21 16:37:46	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "10.206ms", "rows": 1}
+2023-04-21 16:38:20	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "8.822ms", "rows": 1}
+2023-04-21 16:38:21	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.045ms", "rows": 1}
+2023-04-21 16:38:37	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.389ms", "rows": 1}
+2023-04-21 16:39:03	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "10.081ms", "rows": 1}
+2023-04-21 16:39:09	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.620ms", "rows": 1}
+2023-04-21 16:39:38	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "11.088ms", "rows": 1}
+2023-04-21 16:39:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.228ms", "rows": 1}
+2023-04-21 16:39:48	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "8.674ms", "rows": 1}
+2023-04-21 16:39:57	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.919ms", "rows": 1}
+2023-04-21 16:39:58	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.578ms", "rows": 1}
+2023-04-21 16:40:10	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.649ms", "rows": 1}
+2023-04-21 16:40:14	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.066ms", "rows": 1}
+2023-04-21 16:40:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "10.012ms", "rows": 1}
+2023-04-21 16:40:40	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.452ms", "rows": 1}
+2023-04-21 16:40:50	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.105ms", "rows": 1}
+2023-04-21 16:40:50	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.814ms", "rows": 1}
+2023-04-21 16:40:57	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.334ms", "rows": 1}
+2023-04-21 16:41:04	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.227ms", "rows": 1}
+2023-04-21 16:41:05	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "10.097ms", "rows": 1}
+2023-04-21 16:41:06	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.775ms", "rows": 1}
+2023-04-21 16:41:07	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "8.914ms", "rows": 1}
+2023-04-21 16:41:08	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.438ms", "rows": 1}
+2023-04-21 16:41:21	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.318ms", "rows": 1}
+2023-04-21 16:41:24	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "10.130ms", "rows": 1}
+2023-04-21 16:41:46	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.306ms", "rows": 1}
+2023-04-21 16:41:47	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.866ms", "rows": 1}
+2023-04-21 16:41:49	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "8.620ms", "rows": 1}
+2023-04-21 16:42:21	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT count(*) FROM `manager`", "time": "8.006ms", "rows": 1}
+2023-04-21 16:42:31	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE username = 'admin' ORDER BY `manager`.`id` LIMIT 1", "time": "9.876ms", "rows": 1}
+2023-04-21 16:42:35	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.334ms", "rows": 1}
+2023-04-21 16:43:22	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.282ms", "rows": 1}
+2023-04-21 16:46:08	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "10.050ms", "rows": 1}
+2023-04-21 17:06:11	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36", "errors": "", "time": "0.522ms"}
+2023-04-21 17:06:21	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36", "errors": "", "time": "0.000ms"}
+2023-04-21 17:06:27	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1/", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36", "errors": "", "time": "0.483ms"}
+2023-04-21 17:06:27	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /favicon.ico", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36", "errors": "", "time": "0.000ms"}
+2023-04-21 17:09:04	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.674ms", "rows": 1}
+2023-04-21 17:10:09	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.704ms", "rows": 1}
+2023-04-21 17:10:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.409ms", "rows": 1}
+2023-04-21 17:10:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "10.211ms", "rows": 1}
+2023-04-21 17:10:39	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "10.161ms", "rows": 1}
+2023-04-21 17:11:43	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "11.140ms", "rows": 1}
+2023-04-21 17:12:06	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "10.238ms", "rows": 1}
+2023-04-21 17:12:16	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "10.745ms", "rows": 1}
+2023-04-21 17:13:05	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /api/v1", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36", "errors": "", "time": "0.000ms"}
+2023-04-21 17:13:14	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.123ms", "rows": 1}
+2023-04-21 17:13:15	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "10.094ms", "rows": 1}
+2023-04-21 17:15:25	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "10.640ms", "rows": 1}
+2023-04-21 17:15:26	WARN	middlewares/logger.go:69	HTTP Warning 404	{"status": 404, "request": "GET /favicon.ico", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48", "errors": "", "time": "0.000ms"}
+2023-04-21 17:15:29	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "9.759ms", "rows": 1}
+2023-04-21 17:15:41	DEBUG	gorm@v1.25.0/callbacks.go:134	Database Query	{"sql": "SELECT * FROM `manager` WHERE `id` = '4' ORDER BY `manager`.`id` LIMIT 1", "time": "10.646ms", "rows": 1}
